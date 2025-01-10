@@ -97,4 +97,46 @@ nav h3 {
     display: flex;
     flex: 1 1 0;
     gap: 24px;
+    margin-bottom: 80px;
+}
+.card-vision{
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    flex: 1 1 0;
+}
+.btn-vision{
+    border-radius: 8px;
+    border: 1px solid transparent;
+    background: rgb(84, 144, 245); 
+    padding: 11px 20px;
+    color: rgb(255, 255, 255);
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn-vision:hover{
+    background-color: #FFFFFF;
+    color: rgb(84, 144, 245);
+}
+.btn-vision2{
+    background-color: rgb(9, 161, 92);
+}
+.btn-vision2:hover{
+    background-color: #FFFFFF;
+    color: rgb(9, 161, 92); 
+}
+.btn-vision3{
+    background-color: rgb(255, 194, 57);
+}
+.btn-vision3:hover{
+    background-color: #FFFFFF;
+    color: rgb(255, 194, 57); 
+}
+.card-vision2{
+    background-color: rgb(198, 228, 214);
+}
+.card-vision3{
+    background-color: rgb(247, 235, 207);
 }
