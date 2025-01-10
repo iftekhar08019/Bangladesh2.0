@@ -66,7 +66,9 @@ nav h3 {
     font-size: 56px;
     font-weight: 700;
 }
-
+.pillar-section{
+    margin-bottom: 80px;
+}
 .section-heading{
     color: rgb(14, 14, 14);
     font-family: "Fira Sans", serif;
@@ -97,7 +99,7 @@ nav h3 {
     display: flex;
     flex: 1 1 0;
     gap: 24px;
-    margin-bottom: 80px;
+    margin-top: 32px;
 }
 .card-vision{
     background-color: rgba(84, 144, 245, 0.2);
@@ -139,4 +141,27 @@ nav h3 {
 }
 .card-vision3{
     background-color: rgb(247, 235, 207);
+}
+.vision-section{
+    margin-bottom: 32px;
+}
+
+.quote{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    flex: 1 1 0;
+    padding: 48px 24px;
+}
+
+.quote-section{
+    margin-bottom: 80px;
+}
+#designation{
+    color: rgba(14, 14, 14, 0.6);
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 0px;
 }
